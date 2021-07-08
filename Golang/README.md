@@ -9,3 +9,4 @@
 * [Golang: 进制](Golang/go03.md)
 * [Golang: 程序流程控制](Golang/go04.md)
 * [Golang: 函数](Golang/go05.md)
+* [Golang: 字符串函数](Golang/go_string_func.md)
