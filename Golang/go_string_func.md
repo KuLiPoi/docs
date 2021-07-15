@@ -11,7 +11,7 @@ func main(){
 
 ## []rune()/[]byte()
 
-参考文献：[rune 和 byte 的 区别](https://learnku.com/articles/23411/the-difference-between-rune-and-byte-of-gohttps://learnku.com/articles/23411/the-difference-between-rune-and-byte-of-go)
+参考文献：[rune 和 byte 的 区别](https://learnku.com/articles/23411/the-difference-between-rune-and-byte-of-go)
 
 在写下这个的时候我翻阅了一些网上的文献 总结如下
 
