@@ -8,4 +8,5 @@
     * [Golang: 字符串函数](Golang/go_string_func.md)
     * [Golang: 错误处理机制](Golang/go06.md)
     * [Golang: 数组&切片](Golang/go07.md)
+    * [Golang: 冒泡排序及优化](Golang/go08.md)
 
