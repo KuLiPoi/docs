@@ -70,7 +70,7 @@ func main(){
 
 ## 是否存在子串 strings.Contains()
 
-```
+```go
 func main(){
 		fmt.Println(strings.Contains("Damedayo", "dayo"))
 }
@@ -78,7 +78,7 @@ func main(){
 
 ## 有几个子串 string.Count()
 
-```
+```go
 func main(){
 		fmt.Println(strings.Count("DamedamedameDaMe", "dame")) // 2 区分大小写
 }
@@ -86,7 +86,7 @@ func main(){
 
 ## 字符串比较 string.EqualFold()
 
-```
+```go
 func main(){
 		fmt.Println(string.EqualFold("bilibili", "BiLiBiLi")) // True
 		//不区分大小写
@@ -95,7 +95,7 @@ func main(){
 
 ## 子串第一次出现的位置 string.Index()
 
-```
+```go
 func main(){
 		fmt.Println(strings.Index("bilibili", "bi")) // 0
 }
@@ -103,7 +103,7 @@ func main(){
 
 ## 子串最后出现的位置 string.Lastindex()
 
-```
+```go
 func main(){
 		fmt.Println(strings.LastIndex("233bilibili", "li")) // 9
 }
@@ -111,7 +111,7 @@ func main(){
 
 ## 替换指定子串 strings.Replace()
 
-```
+```go
 func main(){
 		fmt.Println(strings.Replace("bilibili244", "244", "233", -1)) // 最后一个参数代表替换几次
 }
@@ -119,7 +119,7 @@ func main(){
 
 ## 分割字符串 strings.Split()
 
-```
+```go
 func main(){
 		strArr := strings.Split("bilibili,chenrui,233,🐎,❤️", ",")
 		for i := 0; i < len(strArr); i++ {
@@ -130,7 +130,7 @@ func main(){
 
 ## 大小写转换 strings.ToLower/Upper()
 
-```
+```go
 func main(){
 		fmt.Println(strings.ToLower("CHENRUI")) //chenrui
 		fmt.Println(strings.ToUpper("chenrui")) //CHENRUI
@@ -139,7 +139,7 @@ func main(){
 
 ## 去首尾空 strings.TrimSpace()
 
-```
+```go
 func main(){
 		fmt.Println(strings.TrimSpace(" Bilibili ")) //bilibili
 }
@@ -147,7 +147,7 @@ func main(){
 
 ## 去首尾指定字符 strings.Trim()
 
-```
+```go
 func main(){
 		fmt.Println(strings.Trim("?-?","?")) //-
 }
@@ -155,7 +155,7 @@ func main(){
 
 ## 去左边指定字符 strings.TrimLeft()
 
-```
+```go
 func main(){
 		fmt.Println(strings.TrimLeft("mumchenrui","mum")) // chenrui
 }
@@ -163,7 +163,7 @@ func main(){
 
 ## 去右边指定字符 strings.TrimRight()
 
-```
+```go
 func main(){
 		fmt.Println(strings.TrimRight("chenruimum","mum")) // chenrui
 }
@@ -171,7 +171,7 @@ func main(){
 
 ## 判断字符串以指定子串开头 strings.HasPrefix()
 
-```
+```go
 func main(){
 		fmt.Println(strings.HasPrefix("https://bilibili.com"),"https://") // true
 }
@@ -179,7 +179,7 @@ func main(){
 
 ## 判断字符串以指定子串结束 strings.HasSuffix()
 
-```
+```go
 func main(){
 		fmt.Println(strings.HasSuffix("bilibili.png",".png")) //true
 }
