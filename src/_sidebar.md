@@ -11,4 +11,7 @@
     * [Golang: 冒泡排序及优化](Golang/go08.md)
     * [Golang: 查找](Golang/go09.md)
     * [Golang: Map (映射)](Golang/go10.md)
+    * [Golang: Map (结构体&方法)](Golang/go11.md)
+    * [Golang: Map (封装&继承)](Golang/go12.md)
+    * [Golang: Map (接口)](Golang/go13.md)
 
