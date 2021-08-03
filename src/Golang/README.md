@@ -8,13 +8,16 @@
 >
 > 👍 [Go语言设计与实现 @Draveness](https://draveness.me/golang/)
 >
+> 🐰 [Go语言高性能编程 @极客兔兔](https://geektutu.com/post/high-performance-go.html)
+>
+> 🔧 [Go语言学习 @pibigstar](https://github.com/pibigstar/go-demo)
+>
 > 🥬 [菜鸟教程](https://www.runoob.com/go/go-tutorial.html)
 >
 > 💻 [尚硅谷](http://www.atguigu.com)
 >
 > 🏠 [Golang中文网](https://studygolang.com)
 >
-> 🔧 [Go语言学习 @pibigstar](https://github.com/pibigstar/go-demo)
 
 
 
@@ -47,6 +50,10 @@
 * [Golang: Map (封装&继承)](Golang/go12.md)
 
 * [Golang: Map (接口)](Golang/go13.md)
+
+* [Golang: Map (协程&管道)](Golang/go14.md)
+
+* [Golang: Map (反射)](Golang/go15.md)
 
   
 
